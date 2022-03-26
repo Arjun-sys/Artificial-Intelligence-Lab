@@ -1,0 +1,4 @@
+graduating(X,Happy).
+graduating(rinku).
+smile(Happy).
+

@@ -1,0 +1,9 @@
+autocrat(X):-greedyleader(X).
+evil(X):-autocrat(X).
+
+greedyleader(hari).
+
+not(greedyleader(ram)).
+
+
+

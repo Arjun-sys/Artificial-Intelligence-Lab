@@ -1,0 +1,4 @@
+dog(fido).
+die(X):-animal(X).
+animal(x):-dog(X).
+

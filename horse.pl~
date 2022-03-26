@@ -1,0 +1,11 @@
+mammal(Horse(X)),
+    mammal(Cow(X)),
+    mammal(Pigs(X))
+    Horse(X),Horse(Y):-offspring(X,Y).
+Horse(Bluebeard).
+parent(Bluebird,Charlie).
+offspring(X,Y).
+parent(Y,X).
+mammal(Y,X):-parent(Y,X).
+
+
